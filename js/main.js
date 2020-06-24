@@ -92,8 +92,8 @@ $(function () {
 
         //Count To 
 
-        if ($(window).scrollTop() >= $('.counter').offset().top - 440 && $(window).scrollTop() <= $('.counter').offset().top - 435) {
-
+        if ($(window).scrollTop() >= $('.services').offset().top + 200 && $(window).scrollTop() <= $('.counter').offset().top - 400) {
+ 
             $('.count span').countTo( { 
                 speed: 3000,
                 refreshInterval: 50
