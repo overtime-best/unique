@@ -1,0 +1,16 @@
+@import "sass/helpers/variables";
+
+@import "sass/helpers/mixins";
+
+@import "sass/pages/homepage";
+
+.header {
+
+    background: #151515 url(../images/intro-bg.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
