@@ -1238,7 +1238,7 @@ transform: rotate(-40deg)  translateY(-10px);
     
 }
 .services .ser-header {
-    padding: 50px 0;
+    padding: 40px 0;
 }
 .services .ser-header h2,h3{
 
@@ -1286,6 +1286,10 @@ transform: rotate(-40deg)  translateY(-10px);
     border-radius: 50%;
     display: inline-block;
     background-color: #000;
+}
+.owl-theme .owl-dot {
+    position: relative !important;
+    bottom: 30px !important;
 }
 .owl-theme .owl-dots span {
     width: 20px !important;
